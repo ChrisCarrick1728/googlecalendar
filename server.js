@@ -6,7 +6,7 @@ const pool = new Pool({connectionString: connectionString})
 
 express()
     .get('/', (req, res) => {
-        console.log(connectionString)
+        //console.log(connectionString)
         res.write("Path: /")
         res.end();
     })
