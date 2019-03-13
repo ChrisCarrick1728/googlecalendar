@@ -1,0 +1,25 @@
+{
+  "name": "Project 02",
+  "version": "1.0.0",
+  "description": "Calendar App Project",
+  "author": "Chris Carrick <car17059@byui.edu>",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.8.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
